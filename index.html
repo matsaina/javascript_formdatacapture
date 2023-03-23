@@ -1,0 +1,44 @@
+<html>
+  <head>
+    <title>GYM</title>
+    <link rel="stylesheet" href="./index.css" />
+  </head>
+
+  <body>
+    <header>
+      <h2>Welcome to the Gym</h2>
+    </header>
+
+    <main class="container">
+      <section>
+        <form action="" id="record">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required />
+
+          <br />
+          <label for="email">email</label>
+          <input type="email" id="email" name="email" required />
+          <br />
+
+          <label for="password">password</label>
+          <input type="password" name="password" id="password" min="8" />
+
+          <input type="submit" id="submit" name="submit" />
+        </form>
+      </section>
+
+      <section>
+        <h2>Share feedback</h2>
+        <form action="" class="feedbackForm">
+          <label for="feedback">Add Feedback</label>
+          <input type="text" name="feedback" id="feedback" />
+
+          <button id="add">Add</button>
+        </form>
+
+        <p></p>
+      </section>
+    </main>
+    <script defer src="./index.js"></script>
+  </body>
+</html>
